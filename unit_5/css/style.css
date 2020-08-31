@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper{
+	margin: 0 auto;
+	/*width: 1110px;*/
+}
+
+header{
+	border: 1px solid black;
+	padding: 2em;
+}
+
+nav{
+	border: 1px solid black;
+}
+
+nav a{
+	margin-right: 1.5em;
+}
+
+body{
+	border: 1px solid black;
+	color: #444;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em; 
+}
+
+.about{
+	border:1px solid black;
+	background-color: #f8f8f8;
+	padding: 2em;
+	text-align: center;
+}
+
+.skillset{
+	border: 1px solid black;
+	padding: 2em;
+}
+
+.skillset_card{
+	background-color: #f8f8f8;
+	padding: 2em;
+	width: 350px;
+}
+
+.work{
+	border: 1px solid black;
+	padding: 2em;
+}
+
+.project_card{
+	background-color: #f8f8f8;
+	padding: 2em;
+	width: 540px;
+}
+
+footer{
+	border: 1px solid red;
+	background-color: #444;
+	color: #d8d8d8;
+	padding: 2em;
+	text-align: center;
+}
+
+footer a{
+	color: #fff;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 600;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+h4, .availability, .name{
+	letter-spacing: .05em;
+	font-size: .75em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+p{
+	font-weight: 400;
+}
+
+span{
+	color: #ccc;
+}
